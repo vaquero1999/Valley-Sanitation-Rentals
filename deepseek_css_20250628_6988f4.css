@@ -1,14 +1,25 @@
-/* United Rentals-inspired styling */
-.booking-widget {
-    background: #005f86;
-    color: white;
-    padding: 2rem;
-    border-radius: 10px;
-    max-width: 600px;
-    margin: 2rem auto;
-}
-#quote-result {
-    margin-top: 1rem;
-    padding: 1rem;
-    background: rgba(255,255,255,0.1);
-}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Valley Sanitation | Portable Restroom Rentals</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <!-- United Rentals-Style Booking Widget -->
+    <div class="booking-widget">
+        <h2>INSTANT BOOKING</h2>
+        <form id="booking-form">
+            <select id="unit-type" required>
+                <option value="">Select Unit Type</option>
+                <option value="standard">Standard Unit</option>
+                <option value="deluxe">Deluxe Unit</option>
+            </select>
+            <input type="date" id="rental-date" required>
+            <button type="submit">Check Availability</button>
+        </form>
+        <div id="quote-result"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
