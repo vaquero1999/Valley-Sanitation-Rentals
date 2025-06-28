@@ -1,0 +1,14 @@
+/* United Rentals-inspired styling */
+.booking-widget {
+    background: #005f86;
+    color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 2rem auto;
+}
+#quote-result {
+    margin-top: 1rem;
+    padding: 1rem;
+    background: rgba(255,255,255,0.1);
+}
